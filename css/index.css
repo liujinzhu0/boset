@@ -1,0 +1,331 @@
+.header-nav {
+  height: 80px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 40px; }
+
+.nav-item {
+  width: auto;
+  line-height: 76px; }
+  .nav-item > li {
+    position: relative;
+    float: left;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px; }
+  .nav-item > li:hover {
+    border-bottom: 3px solid #2b7bcd; }
+
+.nav-link {
+  width: auto;
+  line-height: 76px; }
+  .nav-link > li {
+    position: relative;
+    float: left;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer; }
+    .nav-link > li a {
+      font-size: 16px; }
+  .nav-link > li:hover {
+    border-bottom: 3px solid #2b7bcd; }
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 12px; }
+  .logo img {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.nav-list {
+  font-size: 16px; }
+
+.nav-list-info {
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  width: 100%;
+  background: white;
+  height: -webkit-calc(100vh - 80px);
+  height: calc(100vh - 80px);
+  overflow-y: auto; }
+
+.nav-moto-type {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px; }
+  .nav-moto-type span {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 14px;
+    cursor: pointer;
+    font-weight: bold; }
+  .nav-moto-type span:hover {
+    border-bottom: 1px solid #000068; }
+
+.classify {
+  width: 1100px;
+  float: left; }
+
+.classify-list {
+  clear: both; }
+  .classify-list h2 {
+    width: 200px;
+    text-align: center;
+    float: left;
+    height: 100%;
+    line-height: 32px;
+    font-size: 16px; }
+
+.classify-info {
+  width: 900px;
+  height: auto;
+  float: left; }
+  .classify-info li {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 0 12px; }
+    .classify-info li .moto-title,
+    .classify-info li .moto-price,
+    .classify-info li .moto-set {
+      line-height: 28px; }
+      .classify-info li .moto-title a,
+      .classify-info li .moto-price a,
+      .classify-info li .moto-set a {
+        margin-right: 12px;
+        text-align: justify; }
+    .classify-info li .moto-img {
+      width: 100%; }
+
+.discover {
+  width: 300px;
+  float: right;
+  margin-right: 40px; }
+  .discover h2 {
+    font-size: 22px;
+    padding-bottom: 21px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #ddd; }
+  .discover div a {
+    line-height: 32px;
+    font-size: 15px; }
+
+.buy-car-tool {
+  padding: 40px 40px 0 40px; }
+
+.tool {
+  font-size: 22px;
+  padding-bottom: 21px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #ddd;
+  clear: both; }
+
+.tool-list {
+  width: 25%;
+  height: auto;
+  float: left; }
+  .tool-list dt img {
+    width: 100%; }
+  .tool-list dd a {
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 400; }
+
+.tool-item {
+  padding-bottom: 40px;
+  clear: both; }
+
+.tool-item:after {
+  display: block;
+  clear: both;
+  overflow: hidden; }
+
+.swiper-slide a img {
+  display: block;
+  width: 100%; }
+
+.moto-type {
+  width: 100%;
+  height: auto;
+  clear: both; }
+
+.moto-type:after {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+
+.wid-50 {
+  width: 50%; }
+
+.moto-type-left img,
+.moto-type-right img {
+  width: 100%; }
+
+.moto-type-list {
+  position: relative;
+  padding: 4px; }
+
+.moto-type-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer; }
+
+.moto-type-area:hover {
+  background: rgba(0, 0, 0, 0.5); }
+
+.moto-type-area:hover .moto-type-info {
+  display: block; }
+
+.moto-type-area:hover .moto-type-title {
+  display: none; }
+
+.moto-type-info {
+  width: 100%;
+  height: 74px;
+  top: 50%;
+  margin-top: -37px;
+  position: absolute;
+  display: none; }
+  .moto-type-info h2 {
+    height: 36px;
+    line-height: 36px;
+    text-indent: 24px;
+    font-size: 22px;
+    color: white; }
+  .moto-type-info p {
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: white;
+    text-indent: 24px; }
+    .moto-type-info p a {
+      font-size: 16px;
+      color: white; }
+
+.moto-type-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  line-height: 40px;
+  font-size: 22px;
+  color: black;
+  font-weight: bold; }
+
+.moto-config {
+  padding-top: 40px;
+  clear: both; }
+
+.moto-config-title {
+  text-align: center;
+  margin: 24px 0; }
+  .moto-config-title h2 {
+    font-size: 26px;
+    line-height: 32px;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bold; }
+  .moto-config-title p {
+    line-height: 48px;
+    font-size: 18px; }
+
+.moto-config-item {
+  width: 1200px;
+  margin: 0 auto; }
+
+.moto-config-list {
+  padding: 12px;
+  width: 33.33%;
+  float: left; }
+
+.moto-config-img {
+  margin-bottom: 26px; }
+  .moto-config-img img {
+    display: block;
+    width: 100%; }
+
+.moto-config-name {
+  line-height: 26px;
+  font-size: 22px;
+  text-align: center;
+  color: #161618;
+  margin-bottom: 9px; }
+
+.moto-config-info {
+  line-height: 22px;
+  font-size: 15px; }
+
+.moto-details {
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 15px; }
+  .moto-details a {
+    color: #007bcd; }
+
+.moto-config-set a {
+  display: block;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #2b7bcd;
+  color: #2b7bcd; }
+
+.moto-config-set a:hover {
+  background: #2b7bcd;
+  color: white; }
+
+.footer {
+  clear: both;
+  background: #161618;
+  padding: 100px 0;
+  color: white; }
+
+.company {
+  width: 600px;
+  line-height: 32px;
+  margin: 0 auto; }
+
+.footer-about {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 24px; }
+
+.footer-about-nav {
+  width: 100%;
+  text-align: center;
+  margin-top: 24px; }
+  .footer-about-nav a {
+    padding: 12px;
+    color: white; }
+
+.footer-copyright {
+  margin-top: 24px;
+  line-height: 32px;
+  text-align: center; }
+
+.gotop {
+  width: 180px;
+  height: 55px;
+  border: 1px solid white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 32px;
+  line-height: 55px; }
+  .gotop a {
+    color: white; }
+
+.gotop:hover {
+  background: white; }
+  .gotop:hover a {
+    color: #161618; }
