@@ -1,3 +1,9 @@
+body {
+  min-width: 1366px; }
+
+.content {
+  width: 100%; }
+
 .header-nav {
   height: 80px;
   border-bottom: 1px solid #ddd;
@@ -47,6 +53,7 @@
   position: absolute;
   z-index: 1;
   top: 80px;
+  min-width: 1366px;
   width: 100%;
   background: white;
   height: -webkit-calc(100vh - 80px);
@@ -264,12 +271,12 @@
   line-height: 22px;
   font-size: 15px; }
 
-.moto-details {
+.moto-details-link {
   height: 55px;
   line-height: 55px;
   text-align: center;
   font-size: 15px; }
-  .moto-details a {
+  .moto-details-link a {
     color: #007bcd; }
 
 .moto-config-set a {
@@ -329,3 +336,18 @@
   background: white; }
   .gotop:hover a {
     color: #161618; }
+
+.iconfont {
+  color: #2b7bcd; }
+
+@media only screen and (max-width: 1366px) {
+  .classify {
+    width: 800px; }
+  .classify-info {
+    width: 600px; } }
+
+@media only screen and (max-width: 1440px) {
+  .classify {
+    width: 800px; }
+  .classify-info {
+    width: 600px; } }

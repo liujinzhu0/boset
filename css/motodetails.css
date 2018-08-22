@@ -1,0 +1,74 @@
+.moto-details-title {
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 45px; }
+  .moto-details-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161618;
+    text-align: center;
+    margin-bottom: 18px; }
+  .moto-details-title p {
+    padding-top: 12px;
+    font: 15px/22px  "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    max-width: 100%;
+    color: #333;
+    text-align: center; }
+
+.moto-details-info {
+  width: 1280px;
+  height: auto;
+  margin: 0 auto;
+  padding: 45px 0; }
+
+.moto-details-info:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.moto-details-img {
+  float: left;
+  width: 60%;
+  padding-right: 45px; }
+  .moto-details-img img {
+    width: 100%; }
+
+.moto-details-body {
+  float: left;
+  width: 40%;
+  padding-right: 45px; }
+  .moto-details-body img {
+    width: 100%; }
+  .moto-details-body h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161618;
+    text-align: center;
+    margin-bottom: 18px; }
+  .moto-details-body p {
+    padding-top: 12px;
+    font: 15px/22px  "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    max-width: 100%;
+    color: #333; }
+
+.moto-details-nav-bar {
+  background-color: #000;
+  border-bottom: 1px solid #333;
+  height: 50px;
+  padding: 0 50px; }
+
+.moto-details-price {
+  height: 50px;
+  float: left;
+  color: white;
+  line-height: 50px; }
+
+.moto-details-nav {
+  float: right;
+  height: 50px;
+  line-height: 50px; }
+  .moto-details-nav li {
+    display: inline-block;
+    padding: 0 24px; }
+    .moto-details-nav li a {
+      color: white; }

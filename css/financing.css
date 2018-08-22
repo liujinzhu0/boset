@@ -1,0 +1,36 @@
+.financing {
+  width: 100%;
+  min-height: 800px; }
+
+.financing-title {
+  padding: 24px;
+  text-align: center;
+  color: #161618;
+  font-size: 22px; }
+
+.financing-item {
+  width: 1200px;
+  margin: 0 auto; }
+
+.financing-list {
+  width: 33.33%;
+  color: #161618;
+  float: left;
+  padding: 0 10px; }
+  .financing-list img {
+    width: 100%; }
+  .financing-list p {
+    padding: 24px;
+    font-size: 20px;
+    text-align: center; }
+  .financing-list a {
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #2b7bcd;
+    color: #2b7bcd; }
+  .financing-list a:hover {
+    background: #2b7bcd;
+    color: white; }
