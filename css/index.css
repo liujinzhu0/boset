@@ -81,7 +81,11 @@ body {
   float: left; }
 
 .classify-list {
-  clear: both; }
+  clear: both;
+  border-bottom: 2px solid #CCCCCC;
+  width: 100%;
+  height: auto;
+  padding: 45px 0; }
   .classify-list h2 {
     width: 200px;
     text-align: center;
@@ -90,15 +94,21 @@ body {
     line-height: 32px;
     font-size: 16px; }
 
+.classify-list:after {
+  content: "";
+  display: block;
+  clear: both; }
+
 .classify-info {
   width: 900px;
   height: auto;
   float: left; }
   .classify-info li {
     width: 300px;
-    height: 300px;
+    height: 376px;
     float: left;
-    padding: 0 12px; }
+    padding: 0 12px;
+    border: 1px solid white; }
     .classify-info li .moto-title,
     .classify-info li .moto-price,
     .classify-info li .moto-set {
@@ -110,6 +120,9 @@ body {
         text-align: justify; }
     .classify-info li .moto-img {
       width: 100%; }
+  .classify-info li:hover {
+    cursor: pointer;
+    border: 1px solid #EEECEC; }
 
 .discover {
   width: 300px;
