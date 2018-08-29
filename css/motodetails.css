@@ -10,10 +10,17 @@
     margin-bottom: 18px; }
   .moto-details-title p {
     padding-top: 12px;
-    font: 15px/22px  "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    font: 15px/22px "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
     max-width: 100%;
     color: #333;
     text-align: center; }
+    .moto-details-title p a {
+      text-align: center;
+      color: #003057;
+      text-decoration: none;
+      border-bottom: 1px solid #003057;
+      letter-spacing: 1px;
+      cursor: pointer; }
 
 .moto-details-info {
   width: 1280px;
@@ -47,7 +54,7 @@
     margin-bottom: 18px; }
   .moto-details-body p {
     padding-top: 12px;
-    font: 15px/22px  "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    font: 15px/22px "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
     max-width: 100%;
     color: #333; }
 

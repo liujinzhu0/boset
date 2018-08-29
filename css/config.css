@@ -1,0 +1,100 @@
+.config {
+  height: calc(100% - 80px); }
+
+.config-nav {
+  text-align: center;
+  height: 55px;
+  background: #f0f0f0;
+  text-align: center;
+  line-height: 55px; }
+  .config-nav li {
+    display: inline-block;
+    padding: 0 24px; }
+    .config-nav li a {
+      color: #333333; }
+
+.config-video {
+  width: 100%;
+  height: calc(100% - 55px);
+  overflow: hidden;
+  position: relative; }
+  .config-video img {
+    width: 100%; }
+
+.config-info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+  padding-top: 60px;
+  background: rgba(0, 0, 0, 0.3); }
+  .config-info h2 {
+    line-height: 120px;
+    font-size: 36px; }
+  .config-info div {
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    margin: 0 auto;
+    margin-top: 160px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -80px; }
+    .config-info div a {
+      color: white; }
+
+.find {
+  height: calc(100% - 80px);
+  width: 100%; }
+
+.find-list {
+  width: 400px;
+  float: left; }
+
+.search {
+  height: 50px;
+  padding: 0 30px;
+  font-size: 0;
+  margin-top: 100px; }
+  .search input {
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #333333;
+    vertical-align: top;
+    text-indent: 12px;
+    font-size: 16px; }
+  .search span {
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #333333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer; }
+
+.dealer-list {
+  width: 100%;
+  height: 100%; }
+  .dealer-list li {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #003057;
+    text-align: center; }
+
+.find-map {
+  margin-left: 400px;
+  width: 100%;
+  height: 100%; }
+
+#map {
+  width: 100%;
+  height: 100%; }

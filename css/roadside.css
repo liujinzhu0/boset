@@ -1,0 +1,65 @@
+.roadside-contnet {
+  width: 100%;
+  height: auto;
+  clear: both;
+  padding: 60px 0; }
+  .roadside-contnet dt {
+    width: 50%;
+    float: left; }
+    .roadside-contnet dt img {
+      width: 100%; }
+  .roadside-contnet dd {
+    width: 50%;
+    float: right;
+    padding-top: 60px;
+    padding-left: 40px; }
+    .roadside-contnet dd h2 {
+      font-size: 26px !important;
+      margin-bottom: 13px; }
+    .roadside-contnet dd p {
+      color: #333;
+      font: 15px/22px "Volvo Sans Light", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      font-size: 14px; }
+    .roadside-contnet dd div {
+      line-height: 24px; }
+
+.roadside-contnet-left dt {
+  padding-top: 60px; }
+  .roadside-contnet-left dt h2 {
+    font-size: 26px !important;
+    margin-bottom: 13px; }
+  .roadside-contnet-left dt p {
+    color: #333;
+    font: 15px/22px "Volvo Sans Light", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px; }
+  .roadside-contnet-left dt div {
+    line-height: 24px; }
+
+.roadside-contnet-left dd {
+  padding-top: 0px; }
+  .roadside-contnet-left dd img {
+    width: 100%; }
+
+.roadside-contnet:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.roadside-wrapper {
+  width: 100%;
+  height: auto;
+  clear: both;
+  padding-top: 60px; }
+  .roadside-wrapper li {
+    width: 33.33%;
+    float: left;
+    line-height: 24px;
+    font-size: 12px;
+    margin-right: -3px;
+    padding: 0 10px;
+    height: 375px;
+    color: #333333; }
+    .roadside-wrapper li img {
+      display: block;
+      width: 100%;
+      height: auto; }

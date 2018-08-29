@@ -13,3 +13,27 @@
 .roadside-title {
   font-size: 20px;
   padding: 20px; }
+
+.housekeeper-app {
+  width: 1000px;
+  font-size: 0;
+  margin: 0 auto; }
+  .housekeeper-app li {
+    width: 25%;
+    display: inline-block;
+    height: 500px;
+    font-size: 0;
+    padding: 10px;
+    vertical-align: top; }
+    .housekeeper-app li img {
+      display: block;
+      width: 100%; }
+    .housekeeper-app li h2 {
+      line-height: 32px;
+      font-size: 14px;
+      text-align: center; }
+    .housekeeper-app li p {
+      line-height: 22px;
+      font-size: 12px;
+      color: #333333;
+      padding-top: 12px; }
