@@ -3,17 +3,18 @@
   padding-top: 45px;
   padding-bottom: 45px; }
   .moto-details-title h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: #161618;
     text-align: center;
     margin-bottom: 18px; }
   .moto-details-title p {
     padding-top: 12px;
-    font: 15px/22px "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
     max-width: 100%;
     color: #333;
-    text-align: center; }
+    text-align: center;
+    line-height: 1.75; }
     .moto-details-title p a {
       text-align: center;
       color: #003057;
