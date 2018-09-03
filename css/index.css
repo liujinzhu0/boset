@@ -145,7 +145,8 @@ body {
   padding-bottom: 21px;
   margin-bottom: 18px;
   border-bottom: 1px solid #ddd;
-  clear: both; }
+  clear: both;
+  line-height: 1.75; }
 
 .tool-list {
   width: 25%;
@@ -159,10 +160,12 @@ body {
     font-weight: 400; }
 
 .tool-item {
+  width: 100%;
   padding-bottom: 40px;
   clear: both; }
 
 .tool-item:after {
+  content: "";
   display: block;
   clear: both;
   overflow: hidden; }
@@ -314,7 +317,8 @@ body {
 .company {
   width: 600px;
   line-height: 32px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 .footer-about {
   width: 600px;

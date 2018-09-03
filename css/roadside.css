@@ -14,24 +14,26 @@
     padding-top: 60px;
     padding-left: 40px; }
     .roadside-contnet dd h2 {
-      font-size: 26px !important;
-      margin-bottom: 13px; }
+      font-size: 30px !important;
+      margin-bottom: 13px;
+      color: #161618; }
     .roadside-contnet dd p {
       color: #333;
-      font: 15px/22px "Volvo Sans Light", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
-      font-size: 14px; }
+      line-height: 1.75;
+      font-size: 20px; }
     .roadside-contnet dd div {
       line-height: 24px; }
 
 .roadside-contnet-left dt {
   padding-top: 60px; }
   .roadside-contnet-left dt h2 {
-    font-size: 26px !important;
-    margin-bottom: 13px; }
+    font-size: 30px !important;
+    margin-bottom: 13px;
+    color: #161618; }
   .roadside-contnet-left dt p {
     color: #333;
-    font: 15px/22px "Volvo Sans Light", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
-    font-size: 14px; }
+    line-height: 1.75;
+    font-size: 20px; }
   .roadside-contnet-left dt div {
     line-height: 24px; }
 
